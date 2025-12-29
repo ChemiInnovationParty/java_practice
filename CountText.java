@@ -9,10 +9,10 @@ public class CountText {
 class InputText{
     public void inputtext(){
     Scanner s = new Scanner(System.in); 
-    System.out.println("글자를 입력하시오");
+    System.out.println("文字を入力してください。");
     String jaso = s.nextLine();
-    System.out.println("지금까지 쓴 글자수는 "+jaso.length()+"자 입니다");
-    System.out.println("공백을 제외한 글자수는 "+jaso.replace(" ", "").length()+"입니다");
+    System.out.println("これまで入力した文字数は"+jaso.length()+"字です。");
+    System.out.println("空白を除いた文字数は"+jaso.replace(" ", "").length()+"字です。");
     return;
     
 }   
