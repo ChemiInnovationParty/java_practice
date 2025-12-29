@@ -30,8 +30,8 @@ class Bosu{
         String bo = "보수";
         System.out.println("이번 경기도지사 선거는 어느 후보가 되어야 한다고 생각하십니까?");
         System.out.println("유승민 1번, 이준석 2번, 한동훈 3번, 김은혜 4번을 눌러주세요");
-        choose=s.nextInt();
         System.out.println("지지하는 후보가 없다면 아무 숫자나 눌러주세요");
+        choose=s.nextInt();
         switch(choose){
             case 1 : System.out.printf("당신은 %s성향이고, 유승민을 지지합니다", bo);
             break;
