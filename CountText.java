@@ -2,7 +2,7 @@ import java.util.*;
 public class CountText {
     public static void main(String[] args){
     InputText in = new InputText();
-    in.inputtext(); //클래스 부른 뒤에.메소드 
+    in.inputtext(); 
   
     }
 }
